@@ -10,7 +10,8 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents, 
     // specPattern : 'cypress/Integration/Advanced/*.js'
-    specPattern : 'cypress/UAT/features/*.feature'
+    // specPattern : 'cypress/UAT/features/*.feature'
     // specPattern : 'cypress/Integration/Assessment3/assesss.js'    
+    specPattern:'cypress/Integration/iframe.js'
   },
 });
